@@ -4,12 +4,10 @@
 
 > A modern, ambient portfolio template, meticulously crafted for Software Developers to showcase their skills and projects with elegance.
 
-> **Live Demo**: [.vercel.app](https://.vercel.app)
+> **Live Demo**: (https://nirmal-ahirwar-portfolio.vercel.app/)
 
 
 ---
-
-[![Website Demo](./public/portfolio.png)](https://.vercel.app)
 
 Explore the live version of the website and see it in action. If you find it useful, don't forget to leave a ⭐ on the repo!
 
