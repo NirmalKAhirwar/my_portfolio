@@ -1,3 +1,12 @@
+type Project = {
+  name: string;
+  description: string;
+  link: string;
+  image: string;
+  asset: string;
+  github?: string;
+};
+
 function ProjectCard({ project }: { project: Project }) {
   return (
     <a href={project.link} target="_blank" rel="noopener noreferrer">

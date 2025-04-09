@@ -1,41 +1,4 @@
-import { useState, useEffect } from "react";
-
 const Portfolio = () => {
-  const startDate = new Date("2022-01-01"); // Start date
-  const [experience, setExperience] = useState("");
-
-  useEffect(() => {
-    const calculateExperience = () => {
-      const currentDate = new Date();
-      const totalYears = currentDate.getFullYear() - startDate.getFullYear();
-      const totalMonths = currentDate.getMonth() - startDate.getMonth() + 1;
-      const totalDays = currentDate.getDate() - startDate.getDate();
-
-      let years = totalYears;
-      let months = totalMonths;
-
-      // Adjust years and months if necessary
-      if (totalMonths < 0) {
-        years -= 1;
-        months += 12;
-      }
-
-      // If days are negative, adjust the months
-      if (totalDays < 0) {
-        months -= 1;
-        if (months < 0) {
-          years -= 1;
-          months += 12;
-        }
-      }
-
-      // Create the experience string
-      const experienceString = `${years} year(s) ${months} month(s)`;
-      setExperience(experienceString);
-    };
-
-    calculateExperience();
-  }, []);
   return (
     <section id="home" className="text-center py-10">
       <div>

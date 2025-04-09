@@ -34,29 +34,6 @@ const Projects: React.FC = () => {
     },
   ];
 
-//   const githubProjects: Project[] = [
-//     {
-//       name: "PortFolio",
-//       description: "My portfolio Website",
-//       link: "https://github.com/bansalgaurav852/gaurav.bansal",
-//       image: "",
-//       asset: "./portfolio.png",
-//     },
-//     {
-//       name: "Design Agency",
-//       description: "Agency web landing page",
-//       link: "https://agency-web-landing-page.vercel.app/",
-//       image: "",
-//       asset: "/project-image/designagency.jpg",
-//     },
-//     {
-//       name: "Todo App",
-//       description: "Todo ",
-//       link: "https://github.com/bansalgaurav852/todoapp",
-//       image: "",
-//       asset: "/project-image/todo.png",
-//     },
-//   ];
 
   return (
     <section id="projects" className="py-10">
@@ -66,14 +43,7 @@ const Projects: React.FC = () => {
           <ProjectCard key={project.name} project={project} />
         ))}
       </div>
-      {/* <h2 className="text-3xl font-bold mb-8 mt-20  text-center">
-        Open Source Projects
-      </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        {githubProjects.map((project) => (
-          <ProjectCard key={project.name} project={project} />
-        ))}
-      </div> */}
+      
     </section>
   );
 };
