@@ -4,16 +4,12 @@
 
 > A modern, ambient portfolio template, meticulously crafted for Software Developers to showcase their skills and projects with elegance.
 
-> **Live Demo**: [gaurav-bansal.vercel.app](https://gaurav-bansal.vercel.app)
+> **Live Demo**: [.vercel.app](https://.vercel.app)
 
-![GitHub stars](https://img.shields.io/github/stars/bansalgaurav852/gaurav.bansal?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/bansalgaurav852/gaurav.bansal?style=for-the-badge)
-[![Maintenance](https://img.shields.io/maintenance/yes/2024?style=for-the-badge)](https://github.com/bansalgaurav852/gaurav.bansal/commits/master)
-[![Website Status](https://img.shields.io/website?down_color=red&down_message=Offline&style=for-the-badge&up_color=light_green&up_message=Online&url=https%3A%2F%2Fgaurav-bansal.vercel.app)](https://gaurav-bansal.vercel.app)
 
 ---
 
-[![Website Demo](./public/portfolio.png)](https://gaurav-bansal.vercel.app)
+[![Website Demo](./public/portfolio.png)](https://.vercel.app)
 
 Explore the live version of the website and see it in action. If you find it useful, don't forget to leave a ⭐ on the repo!
 
@@ -42,8 +38,8 @@ Before starting, ensure that you have the following installed on your local mach
 1. **Clone the repository**:
    Clone the project repository using Git:
    ```bash
-   git clone https://github.com/bansalgaurav852/gaurav.bansal.git
-   cd gaurav.bansal
+   git clone https://github.com/NirmalKAhirwar/my_portfolio.git
+   cd my_portfolio
    ```
 
 2. **Install project dependencies**: After cloning the repository, you need to install the required packages.
